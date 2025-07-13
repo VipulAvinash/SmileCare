@@ -20,7 +20,7 @@ A responsive and modern dental clinic website built using **ReactJS**, styled wi
 
 ```bash
 git clone https://github.com/VipulAvinash/SmileCare.git
-cd SmileCare/frontend
+cd SmileCare
 
 2.Install dependencies
 npm install
