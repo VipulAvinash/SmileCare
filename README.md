@@ -1,23 +1,44 @@
-# Getting Started with Create React App
+# SmileCare Dental Clinic Website 🦷
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and modern dental clinic website built using **ReactJS**, styled with **Bootstrap** and custom CSS. This project was created as part of a Front-End Developer Internship assignment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Multi-page site using **React Router**
+- Responsive design with Bootstrap 5
+- Clean and accessible layout
+- Axios integration for form submission simulation
+- Components: Header, Footer, FAQ
+- Pages: Home, About Us, Services, Contact Us
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
+src/
+├── assets/ # Images and icons
+├── components/ # Reusable components (Header, Footer, FAQ)
+├── pages/ # Page components
+├── styles/ # Custom CSS
+├── App.jsx # Main app
+└── index.js # Entry point
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/VipulAvinash/SmileCare.git
+cd SmileCare/frontend
+
+2.Install dependencies
+npm install
+
+3.Start the development server
+npm start
+
+
