@@ -1,7 +1,6 @@
 # SmileCare Dental Clinic Website 🦷
 
-A responsive and modern dental clinic website built using **ReactJS**, styled with **Bootstrap** and custom CSS. This project was created as part of a Front-End Developer Internship assignment.
-
+A responsive and modern dental clinic website built using **ReactJS**, styled with **Bootstrap** and custom CSS.
 ---
 
 ## 🚀 Features
