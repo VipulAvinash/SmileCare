@@ -1,0 +1,48 @@
+
+.clinic-background {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.clinic-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.clinic-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.clinic-text p {
+  font-size: 1rem;
+}
+
+.doctor-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.mission-section {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.mission-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 0.95rem;
+}

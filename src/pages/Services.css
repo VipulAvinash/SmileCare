@@ -1,0 +1,57 @@
+.services-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.services-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #0077b6;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-item {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 119, 182, 0.05);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 119, 182, 0.1);
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.service-header .icon {
+  font-size: 2rem;
+}
+
+.service-header h3 {
+  font-size: 1.2rem;
+  color: #004d67;
+  margin: 0;
+}
+
+.service-description {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: grey;
+}
+  
