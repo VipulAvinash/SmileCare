@@ -1,15 +1,13 @@
 import React from 'react';
 
 const Footer = () => {
-  const year = new Date().getFullYear();
-
   return (
     <footer className="bg-dark text-light py-4 mt-5 shadow-sm">
       <div className="container d-flex justify-content-between align-items-center flex-wrap">
         <p className="mb-0 fw-light">&copy; 2002 SmileCare Dental Clinic. All rights reserved.</p>
         <div className="d-flex gap-3">
           <a
-            href="#"
+            href="/feedback"
             className="text-light text-decoration-none small"
             style={{ transition: 'color 0.3s' }}
             onMouseEnter={e => (e.target.style.color = '#ffc107')}
@@ -18,7 +16,7 @@ const Footer = () => {
             Feedback
           </a>
           <a
-            href="#"
+            href="/privacypolicy"
             className="text-light text-decoration-none small"
             style={{ transition: 'color 0.3s' }}
             onMouseEnter={e => (e.target.style.color = '#ffc107')}
@@ -27,7 +25,7 @@ const Footer = () => {
             Privacy Policy
           </a>
           <a
-            href="#"
+            href="/Grievance"
             className="text-light text-decoration-none small"
             style={{ transition: 'color 0.3s' }}
             onMouseEnter={e => (e.target.style.color = '#ffc107')}
