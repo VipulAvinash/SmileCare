@@ -15,18 +15,6 @@ A responsive and modern dental clinic website built using **ReactJS**, styled wi
 
 ---
 
-## 📁 Project Structure
-src/
-├── assets/ # Images and icons
-├── components/ # Reusable components (Header, Footer, FAQ)
-├── pages/ # Page components
-├── styles/ # Custom CSS
-├── App.jsx # Main app
-└── index.js # Entry point
-
-
----
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the repository
